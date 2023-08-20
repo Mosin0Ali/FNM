@@ -1,0 +1,53 @@
+[23-Apr-2023 02:01:56 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Interface 'JsonSerializable' not found in /home/beehivevirc/fnm.beehivetech.com.np/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php:11
+Stack trace:
+#0 /home/beehivevirc/fnm.beehivetech.com.np/vendor/composer/ClassLoader.php(578): include()
+#1 /home/beehivevirc/fnm.beehivetech.com.np/vendor/composer/ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('/home/beehivevi...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#3 /home/beehivevirc/fnm.beehivetech.com.np/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(12): spl_autoload_call('Illuminate\\Supp...')
+#4 /home/beehivevirc/fnm.beehivetech.com.np/vendor/composer/ClassLoader.php(578): include('/home/beehivevi...')
+#5 /home/beehivevirc/fnm.beehivetech.com.np/vendor/composer/ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('/home/beehivevi...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('I in /home/beehivevirc/fnm.beehivetech.com.np/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 11
+[23-Apr-2023 02:01:58 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Interface 'JsonSerializable' not found in /home/beehivevirc/fnm.beehivetech.com.np/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php:11
+Stack trace:
+#0 /home/beehivevirc/fnm.beehivetech.com.np/vendor/composer/ClassLoader.php(578): include()
+#1 /home/beehivevirc/fnm.beehivetech.com.np/vendor/composer/ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('/home/beehivevi...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#3 /home/beehivevirc/fnm.beehivetech.com.np/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(12): spl_autoload_call('Illuminate\\Supp...')
+#4 /home/beehivevirc/fnm.beehivetech.com.np/vendor/composer/ClassLoader.php(578): include('/home/beehivevi...')
+#5 /home/beehivevirc/fnm.beehivetech.com.np/vendor/composer/ClassLoader.php(432): Composer\Autoload\ClassLoader::Composer\Autoload\{closure}('/home/beehivevi...')
+#6 [internal function]: Composer\Autoload\ClassLoader->loadClass('I in /home/beehivevirc/fnm.beehivetech.com.np/vendor/laravel/framework/src/Illuminate/Collections/Enumerable.php on line 11
+[23-Apr-2023 02:02:05 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/ in /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Apr-2023 02:03:17 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/ in /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Apr-2023 02:03:52 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/ in /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Apr-2023 02:04:25 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/ in /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[23-Apr-2023 02:04:27 Asia/Kathmandu] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/ in /home/beehivevirc/fnm.beehivetech.com.np/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
